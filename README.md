@@ -1,6 +1,7 @@
 # AIML for 5G Energy Consumption Modelling
 
-This repository contains a Jupyter notebook for modeling energy consumption in 5G networks using Artificial Intelligence and Machine Learning (AI/ML) techniques.
+This repository contains a Jupyter notebook for modeling energy consumption in 5G networks using Artificial Intelligence and Machine Learning (AI/ML) techniques. It also contains the data sets that are required to sucessfully execute the notebook.
+
 
 ## Project Description
 
