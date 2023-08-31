@@ -37,11 +37,8 @@ Once the challenge has closed, the private leaderboard will be delayed by 48 hou
 
 To focus on the cross-equipment and cross-configuration generalization capability of the model, the test set estimation accuracy is evaluated by using a weighted relative error evaluation method. Specifically, the error weight, \( w_i \), of the sample corresponding to the new device and/or new configuration in the test set is larger and is provided in the test set. The error metric is defined as:
 
-\[
-\text{WMAPE} = \frac{\sum_{i=1}^{n} w_i | y_i - \hat{y_i} |}{\sum_{i=1}^{n} w_i | y_i |}
-\]
+\[\text{WMAPE} = \frac{\sum_{i=1}^{n} w_i | y_i - \hat{y_i} |}{\sum_{i=1}^{n} w_i | y_i |}\]
 
-where \( y_i \) is the true energy consumption and \( \hat{y_i} \) is the estimated energy consumption.
 
 The final model performance is ranked according to the minimum WMAPE error.
 
